@@ -96,8 +96,9 @@ article {
 section {
     border: 1px solid #fff;
     border-radius: 4px;
-    padding: 30px 30px 10px 30px;
+    padding: 50px 30px 10px 30px;
     margin-bottom: 40px;
+    position: relative;
 }
 
 h2 {
@@ -105,7 +106,15 @@ h2 {
     font-weight: 400;
     color: yellow;
     transform: rotate(-3deg);
-    margin: 0 0 35px -10px;
+    font-size: 34px;
+    display: inline-block;
+    background-color: #0e0e0e;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 0 12px;
+    position: absolute;
+    top: -63px;
+    left: 12px;
 }
 
 ol {
