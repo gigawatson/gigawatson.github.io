@@ -101,6 +101,54 @@ h2 {
     margin: 0 0 30px -10px;
 }
 
+ol {
+    font-weight: 400;
+}
+
+p.point {
+    padding-left: 34px;
+    position: relative;
+}
+
+p.point::before {
+    content: '->';
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color: yellow;
+}
+
+div.focus {
+    border: 1px solid yellow;
+    background-color: rgba(255, 255, 0, 0.02);
+    box-shadow: 0 0 60px rgba(192, 219, 255, 0.06),
+        0 0 30px rgba(65, 120, 255, 0.15);
+    border-radius: 4px;
+    padding: 50px 30px 12px;
+    position: relative;
+    margin: 60px 0 40px;
+    color: rgba(255, 255, 240, 0.9);
+}
+
+div.focus::after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/exp-logo.png);
+    background-size: contain;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    top: -35px;
+    right: 50%;
+    margin-right: -35px;
+}
+
+div.focus p {
+    font-weight: 600;
+}
+
+
 footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin: 40px auto 0;
