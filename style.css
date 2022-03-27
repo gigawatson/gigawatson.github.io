@@ -114,8 +114,12 @@ h2 {
     left: 12px;
 }
 
-ol {
-    font-weight: 400;
+ol, b {
+    font-weight: 600;
+}
+
+ol li span {
+    color: rgba(255, 255, 255, 0.9);
 }
 
 p.point {
