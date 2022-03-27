@@ -89,7 +89,6 @@ div.divider::after {
 article {
     max-width: 660px;
     margin: 0 auto;
-    font-size: 18px;
     line-height: 1.65;
 }
 
@@ -106,7 +105,7 @@ h2 {
     font-weight: 400;
     color: yellow;
     transform: rotate(-3deg);
-    font-size: 34px;
+    font-size: 30px;
     display: inline-block;
     background-color: #0e0e0e;
     border: 1px solid #fff;
@@ -164,6 +163,17 @@ div.focus p {
     font-weight: 600;
 }
 
+.c1 {
+    color: green;
+}
+
+.c2 {
+    color: yellow;
+}
+
+.c3 {
+    color: orange;
+}
 
 footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
