@@ -114,7 +114,7 @@ h2 {
     left: 12px;
 }
 
-ol, b {
+ol {
     font-weight: 600;
 }
 
@@ -167,14 +167,17 @@ div.focus p {
 
 .c1 {
     color: green;
+    font-weight: 600;
 }
 
 .c2 {
     color: yellow;
+    font-weight: 400;
 }
 
 .c3 {
     color: orange;
+    font-weight: 300;
 }
 
 footer {
