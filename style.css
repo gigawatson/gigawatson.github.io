@@ -165,19 +165,24 @@ div.focus p {
     font-weight: 600;
 }
 
+.c1,
+.c2,
+.c3 {
+    font-weight: 600;
+}
+
 .c1 {
     color: green;
-    font-weight: 600;
 }
 
 .c2 {
     color: yellow;
-    font-weight: 400;
+    opacity: .6;
 }
 
 .c3 {
     color: orange;
-    font-weight: 300;
+    opacity: .6;
 }
 
 footer {
